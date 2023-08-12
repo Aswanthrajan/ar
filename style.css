@@ -1,14 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.logo{
+    float:left;
+}
+header>div{
+    padding:10px;
+}
+.header{
+    font-size:4em;
+    padding:10px;
+    font-family: 'Caveat', cursive;
+}
+.subheader{
+    font-size:1.5em;
+    color:darkgray;
+    padding:0 5px;
+    margin-bottom:30px;
+}
+.header,.subheader{
+    text-align:center;
+    background-color: gray;
+}
+
 body{
     background-color: violet;
+    font-family: 'Indie Flower', cursive;
     }
 header nav{
     background-color: white;
-    margine:none;
+    margin:none;
 }
 header nav ul{
     list-style:none;
     padding:0;
-    margine:0;
+    margin:0;
     position:relative;
     float:left;
 }
@@ -32,15 +57,16 @@ header nav a:hover{
 .menu{
     display:none;
 }
+.nav{
+    clear:both;
+}
 .main{
     clear:both;
-    background-color: white;
+    background-color: violet;
 }
-div{
-    background-color: white;
-}
+
 footer{
-    background-color: rgba(169,0,0,0.5);
+    background-color: darkorchid;
 }
 @media all and (max-width:740px){
     body{
@@ -59,5 +85,11 @@ footer{
         color:white;
         background-color: black;
         text-align: center;
+    }
+    .subheader{
+        margin-bottom:0px;
+    }
+    .header{
+        padding:0px;
     }
 }
