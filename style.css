@@ -68,7 +68,7 @@ header nav a:hover{
 footer{
     background-color: darkorchid;
 }
-@media all and (max-width:740px){
+@media all and (max-width:990px){
     body{
         background-color: red;
     }
