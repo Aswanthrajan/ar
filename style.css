@@ -93,8 +93,3 @@ footer{
         padding:0px;
     }
 }
-@media (max-width:600px){
-    body{
-        background-color:green;
-    }
-}
