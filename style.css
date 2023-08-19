@@ -3,6 +3,12 @@
 .logo{
     float:left;
 }
+.chakra{
+    margin-left: 35%;
+    margin-right: 65%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
 header>div{
     padding:10px;
 }
@@ -19,27 +25,30 @@ header>div{
 }
 .header,.subheader{
     text-align:center;
-    background-color: gray;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(to right,#562ce0,#484ee5,#3a6fea,#2d91f0,#1fb3f5,#11d4fa,#03f6ff,#03f6ff,#11d4fa,#1fb3f5,#2d91f0,#3a6fea,#484ee5,#562ce0);
+    box-shadow: 10px 10px 5px lightyellow;
 }
 
 body{
-    background-color: violet;
+    background-color: black;
     font-family: 'Indie Flower', cursive;
     }
 header nav{
     background-color: white;
     margin:none;
 }
-header nav ul{
-    list-style:none;
-    padding:0;
-    margin:0;
-    position:relative;
-    float:left;
-}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    float: left;
+    }
 nav ul li{
     display:inline-block;
-    background-color: #ddd;
+    box-shadow: 10px 10px 5px gray;
 }
 header nav a{
     display:block;
@@ -51,22 +60,53 @@ header nav a{
     color:gray;
 }
 header nav a:hover{
-    background-color: red;
-    color:white;
+    
+    background-image: linear-gradient(to right,#ff0303,
+    #ff2603,
+    #ff4803,
+    #ff6b03,
+    #ff8e03,
+    #ffb003,
+    #ffd303,
+    #ffd303,
+    #ffb003,
+    #ff8e03,
+    #ff6b03,
+    #ff4803,
+    #ff2603,
+    #ff0303);
+    color:black;
 }
 .menu{
     display:none;
 }
+
 .nav{
     clear:both;
 }
 .main{
     clear:both;
-    background-color: violet;
+    text-align: left;
+    background-image:  linear-gradient(to right,#562ce0,
+    #484ee5,
+    #3a6fea,
+    #2d91f0,
+    #1fb3f5,
+    #11d4fa,
+    #03f6ff,
+    #03f6ff,
+    #11d4fa,
+    #1fb3f5,
+    #2d91f0,
+    #3a6fea,
+    #484ee5,
+    #562ce0);;
+    color:gray
+    box-shadow : 10px 10px 5px gray;
 }
 
 footer{
-    background-color: darkorchid;
+    color:gray;
 }
 @media all and (max-width:990px){
     body{
@@ -77,7 +117,7 @@ footer{
         text-align: center;
     }
     nav ul{
-        width: 100%;
+        width:100%;
     }
     .menu{
         display:block;
@@ -92,9 +132,44 @@ footer{
     .header{
         padding:0px;
     }
+    .chakra{
+        float: left;
+        padding: 10px;
+        max-width: 96%;
+        margin: 2%;
+    }
 }
-@media (max-width:600px){
+@media all and (max-width:600px){
     body{
-        background-color:green;
+        background-color: green;
+    }
+    .menu{
+        display:none;
+        text-align: center;
+    }
+    nav ul li{
+        display:inline-block;
+    }
+    header nav a{
+        background-color: black;
+        color:gray;
+    }
+    header nav a:hover{
+        
+    background-image: linear-gradient(to right,#ff0303,
+    #ff2603,
+    #ff4803,
+    #ff6b03,
+    #ff8e03,
+    #ffb003,
+    #ffd303,
+    #ffd303,
+    #ffb003,
+    #ff8e03,
+    #ff6b03,
+    #ff4803,
+    #ff2603,
+    #ff0303);
+        color:black;
     }
 }
