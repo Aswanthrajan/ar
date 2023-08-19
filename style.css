@@ -101,7 +101,7 @@ header nav a:hover{
     #3a6fea,
     #484ee5,
     #562ce0);;
-    color:gray
+    color:gray;
     box-shadow : 10px 10px 5px gray;
 }
 
@@ -137,6 +137,10 @@ footer{
         padding: 10px;
         max-width: 96%;
         margin: 2%;
+    }
+    .main{
+        float:left;
+        width:100%;
     }
 }
 @media all and (max-width:600px){
