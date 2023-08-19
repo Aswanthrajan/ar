@@ -110,7 +110,7 @@ footer{
 }
 @media all and (max-width:990px){
     body{
-        background-color: red;
+        background-color: blue;
     }
     nav ul li{
         display:block;
